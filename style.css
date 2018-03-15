@@ -1,0 +1,170 @@
+html,body {
+width: 100%;
+margin: 0px;
+color: #2d313c;
+}
+
+
+div {
+  display: block;
+}
+
+h1 {
+
+}
+
+a {
+  color: #2d313c;
+}
+
+/*加上position:absolute需定義width不然無法顯示*/
+.navbar {
+  background-color: gray;
+  opacity: 0.5;
+  border: none;
+}
+
+
+section {
+  /*height: 100vh;*/
+  width: 100vw;
+
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  text-align: center;
+}
+
+
+
+.s1 {
+  background-color: #fbe6e6;
+}
+
+.main-pic {
+  height: 100vh;
+  padding: 300px;
+}
+
+.s2 {
+  background-color: #f2c1c1;
+}
+
+.intro-words {
+  background-color: #f9d3d3;
+  padding: 150px;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.s3 {
+  background-color: #c3efe6;
+}
+
+.box3 {
+  padding: 100px;
+}
+
+.act-title {
+  background-color: #f9d3d3;
+  width: 100vw;
+  height: 10vh;
+}
+
+.map {
+  background-color: #f9d3d3;
+  flex-grow: 2;
+  flex-basis: auto;
+  margin: 5px;
+  height: 70vh;
+}
+
+.map-info {
+  background-color: #f9d3d3;
+  flex-grow: 1;
+  flex-basis: auto;
+  margin: 5px;
+  height: 70vh;
+}
+
+.s4 {
+  background-color: #f7f6d6;
+}
+
+.c4 {
+  padding: 100px;
+  flex-wrap: wrap;
+}
+
+#box4-1, #box4-2, #box4-3, #box4-4 {
+  width: 25vw;
+  height: 150px;
+  background-color: #f9d3d3;
+  margin: 5px;
+}
+
+.s5 {
+  background-color: #f7e1fc;
+}
+
+.box5 {
+  padding: 100px;
+}
+
+#box5-1, #box5-2,#box5-3, #box5-4 {
+  flex-grow: 1;
+  width: 400px;
+  background-color: #f9d3d3;
+  margin: 5px;
+  height: 500px;
+}
+
+
+
+.s6 {
+  background-color: #f7f6d6;
+}
+
+#box6-1, #box6-2, #box6-3 {
+  background-color: #f9d3d3;
+  flex-grow: 3;
+  height: 300px;
+  margin: 5px;
+}
+
+.c6 {
+  padding: 100px;
+}
+
+.s7 {
+  background-color: #c3efe6;
+}
+
+.c7 {
+  flex-wrap: wrap;
+  padding: 100px;
+}
+
+#box7-1 {
+  background-color: #f9d3d3;
+  width: 900px;
+  height: 500px;
+  margin: 5px;
+}
+
+#box7-2, #box7-3 {
+  background-color: #f9d3d3;
+  width: 445px;
+  height: 350px;
+  margin: 5px;
+}
+
+.s8 {
+  height: 50vh;
+  background-color: #2d313c;
+}
