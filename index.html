@@ -8,81 +8,132 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="style.js"></script>
   </head>
   <body>
+    <!--For RWD navbar-->
+    <nav class="nav navbar navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">甘噪祭</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a  href="#s1">首頁</a></li>
+                    <li><a  href="#s2">最新消息</a></li>
+                    <li><a  href="#s3">活動資訊</a></li>
+                    <li><a  href="#s4">演出樂團</a></li>
+                    <li><a  href="#s5">LINE UP</a></li>
+                    <li><a  href="#s6">售票資訊</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--end-->
+<!--
     <nav class="navbar navbar-fixed-top">
       <div class="container-fluid">
         <div class="navbar-header">
           <a class="navbar-brand" href="#">甘噪祭</a>
         </div>
       <ul class="nav navbar-nav navbar-right">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">Page 1</a></li>
-        <li><a href="#">Page 2</a></li>
-        <li><a href="#">Page 3</a></li>
+        <li><a href="#s1">首頁</a></li>
+        <li><a href="#s2">最新消息</a></li>
+        <li><a href="#">活動資訊</a></li>
+        <li><a href="#">演出者</a></li>
+        <li><a href="#">Line up</a></li>
+        <li><a href="#">售票資訊</a></li>
       </ul>
   </div>
     </nav>
-    <section class="section s1">
-      <div class="flex-container">
-        <div class="main-pic"><h1>主視覺</h1></div>
+-->
+
+    <section class="section" id="s1">
+      <div class="flex-container wrap">
+        <div class="s1__mainPic"></div>
+        <!--<button onclick="" class="s1__button">購票去</button>-->
+        <div><h1 id="s1__counter"></h1></div>
+          </div>
+        <div class="flex-container"><a href="#" class="s1__button">購票去</a></div>
+
+    </section>
+
+    <section class="section" id="s2">
+      <div class="flex-container s2--mods">
+          <h1>關於甘噪祭</h1>
+          <p>介紹甘噪祭的文字介紹甘噪祭的文字介紹甘噪祭的文字
+            介紹甘噪祭的文字介紹甘噪祭的文字介紹甘噪祭的文字介
+            紹甘噪祭的文字介紹甘噪祭的文字介紹甘噪祭的文字介紹
+            甘噪祭的文字介紹甘噪祭的文字介紹甘噪祭的文字介紹甘
+            噪祭的文字介紹甘噪祭的文字</p>
       </div>
     </section>
-    <section class="section s2">
-      <div class="flex-container">
-        <div class="intro-words">
-          <h1>關於甘噪祭</h1>
-          介紹甘噪祭的文字介紹甘噪祭的文字介紹甘噪祭的文字介紹甘噪祭的文字介紹甘噪祭的文字介紹甘噪祭的文字介紹甘噪祭的文字介紹甘噪祭的文字介紹甘噪祭的文字介紹甘噪祭的文字介紹甘噪祭的文字介紹甘噪祭的文字介紹甘噪祭的文字介紹甘噪祭的文字
+    <section class="section" id="s3">
+      <div class="flex-container s3--mods wrap">
+          <div class="s3__title">活動資訊</div>
+          <div class="flex-container s3__item">
+            <div class="s3__item1">map</div>
+            <div class="s3__item2">map info</div>
+          </div>
+      </div>
+    </section>
+    <section class="section" id="s4">
+      <div class="flex-container wrap s4--mods">
+        <div class="s4__title">演出者</div>
+        <div class="flex-container">
+          <div class="s4__item1"><img src="img/sweetjohn.jpg" alt=""></div>
+          <div class="s4__item1"><img src="img/bugsofphonon.jpg" alt=""></div>
+          <div class="s4__item1"><img src="img/sweetjohn.jpg" alt=""></div>
+          <div class="s4__item1"><img src="img/bugsofphonon.jpg" alt=""></div>
+          <div class="s4__item1"><img src="img/sweetjohn.jpg" alt=""></div>
+          <div class="s4__item1"><img src="img/bugsofphonon.jpg" alt=""></div>
+          <div class="s4__item1"><img src="img/sweetjohn.jpg" alt=""></div>
+          <div class="s4__item1"><img src="img/bugsofphonon.jpg" alt=""></div>
+          <div class="s4__item1"><img src="img/sweetjohn.jpg" alt=""></div>
+          <div class="s4__item1"><img src="img/bugsofphonon.jpg" alt=""></div>
+          <div class="s4__item1"><img src="img/sweetjohn.jpg" alt=""></div>
+          <div class="s4__item1"><img src="img/bugsofphonon.jpg" alt=""></div>
+
+        </div>
+
+      </div>
+    </section>
+    <section class="section" id="s5">
+      <div class="flex-container wrap s5--mods">
+        <div class="s5__title">LINE UP</div>
+        <div class="flex-container">
+          <div class="s5__item1">拾壹庫</div>
+          <div class="s5__item1">文創園區</div>
+          <div class="s5__item1">321藝術聚落</div>
+          <div class="s5__item1">工作坊/講座</div>
         </div>
       </div>
     </section>
-    <section class="section s3">
-      <div class="flex-container box3 wrap">
-          <div class="act-title">活動資訊</div>
-          <div class="map">map</div>
-          <div class="map-info">map info</div>
+
+    <section class="section" id="s6">
+      <div class="flex-container wrap s6--mods">
+        <div class="s6__title">售票資訊</div>
+        <div class="flex-container">
+          <div class="s6__item">Ａ方案</div>
+          <div class="s6__item">Ｂ方案</div>
+          <div class="s6__item">Ｃ方案</div>
+        </div>
       </div>
     </section>
-    <section class="section s4">
-      <div class="flex-container wrap c4">
-        <div class="act-title">演出者</div>
-        <div id="box4-1">1</div>
-        <div id="box4-2">2</div>
-        <div id="box4-3">3</div>
-        <div id="box4-4">4</div>
-        <div id="box4-1">1</div>
-        <div id="box4-2">2</div>
-        <div id="box4-3">3</div>
-        <div id="box4-4">4</div>
-        <div id="box4-1">1</div>
-        <div id="box4-2">2</div>
-        <div id="box4-3">3</div>
-        <div id="box4-4">4</div>
+
+    <section class="foot-bar">
+      <div class="flex-container wrap footer--mods">
+        <div class="footer__title">贊助廠商</div>
+        <div class="flex-container">
+          <div>logo1</div>
+          <div>log2</div>
+        </div>
       </div>
     </section>
-    <section class="section s5">
-      <div class="flex-container wrap box5">
-        <div id="box5-1">室內舞台</div>
-        <div id="box5-2">室外舞台</div>
-        <div id="box5-3">工作坊</div>
-        <div id="box5-4">講座</div>
-      </div>
-    </section>
-    <section class="section s6">
-      <div class="flex-container wrap c6">
-        <div id="box6-1">售票Ａ</div>
-        <div id="box6-2">售票Ｂ</div>
-        <div id="box6-3">售票Ｃ</div>
-      </div>
-    </section>
-    <section class="section s7">
-      <div class="flex-container wrap c7">
-        <div id="box7-1">大地圖</div>
-        <div id="box7-2">google map</div>
-        <div id="box7-3">文字</div>
-      </div>
-    </section>
-    <section class="section s8">贊助廠商</section>
-    <section class="foot-bar"></section>
   </body>
 </html>
