@@ -49,9 +49,12 @@ h1 {
 }
 
  .nav {
-  background-color: rgb(253, 159, 159);
+  background-color: rgb(243, 170, 40);
   border: none;
 
+}
+
+.navbar-brand img {
 }
 
 
@@ -82,7 +85,7 @@ section {
 }
 
 .s1__mainPic {
-  height: 100vh;
+  height: 100hv;
 }
 
 
