@@ -275,19 +275,21 @@ section {
   margin: 1vw;
   position: relative;
   align-items: flex-start;
+  z-index: 2;
 
 }
 
   .s4__content__item__pic {
     position: absolute;
     padding: 1vw 2vw 1vw 2vw;
+    opacity: 0.7;
+    transition: 0.2s;
   }
 
-/*
-.s4__item>img {
-  position: absolute;
+.s4__content__item__pic:hover {
+    opacity: 1; 
 }
-*/
+
 
 .s4__item1 {
   flex-grow: 1;
