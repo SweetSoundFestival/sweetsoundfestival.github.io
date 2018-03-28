@@ -134,7 +134,7 @@ section {
 
 .s7__title {
   flex-basis: 5vw;
-  margin-right: 1vw;
+  margin-right: 3vw;
 }
 
 .s7__content {
@@ -156,54 +156,93 @@ section {
   flex-grow: 2;
   flex-basis: 350px;
   margin: 1vw;
+  opacity: 0.7;
+  transition: 0.2s;
+}
+
+.s7__content__top__item:hover {
+  opacity: 1;
 }
 
 .s7__content__slide {
   flex-grow: 1;
   height: 10vh;
-  background: white;
   margin-top: 3vh;
   margin-left: 1vw;
   margin-right: 1vw;
 }
+
+.slidecontainer {
+    width: 100%; /* Width of the outside container */
+}
+
+/* The slider itself */
+.slider {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 100%; /* Full-width */
+    height: 25px; /* Specified height */
+    background: rgb(126,34,36); /* Grey background */
+    outline: none; /* Remove outline */
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 150px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: rgb(242,169,58); /* Green background */
+    cursor: pointer; /* Cursor on hover */
+}
+
 
 #s3 {
   background-image: url("img/bg/s3__bg.png");
 }
 
 .s3--mods {
-  padding: 5%;
   align-items: flex-start;
+  padding: 7% 0;
 }
 
 .s3__title {
   flex-basis: 5vw;
-  margin-right: 5vw;
+  margin-right: 3vw;
 }
 
 .s3__content {
-  flex-basis: 70vw;
+  flex-basis: 80vw;
   flex-direction: column;
 }
 
 .s3__content__buttons {
-  flex-basis: 10vh;
-  width: 100%;
+  flex-grow: 1;
+  width: 80vw;
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
 }
   .s3__content__buttons--mods {
-    flex-basis: 200px;
+    flex-basis: 15vw;
   }
 
 
 .s3__content__content {
-  flex-basis: 80vh;
+  flex-grow: 1;
+  width: 80vw;
   /*background-image: url("img/s3__content.png");*/
   background-position: center;
   background-size: cover;
-  width: 70vw;
+
   margin-top: 1vw;
 }
 
@@ -232,8 +271,17 @@ section {
 .s4__content__item {
   flex-grow: 3;
   flex-basis: 300px;
+  width: 25vw;
   margin: 1vw;
+  position: relative;
+  align-items: flex-start;
+
 }
+
+  .s4__content__item__pic {
+    position: absolute;
+    padding: 1vw 2vw 1vw 2vw;
+  }
 
 /*
 .s4__item>img {
@@ -302,6 +350,10 @@ section {
 .foot-bar {
   height: 50vh;
   background-color: #2d313c;
+}
+
+#foot {
+  background-image: url("img/bg/s3__bg.png");
 }
 
 @media (max-width: 768px) {
