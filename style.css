@@ -40,7 +40,7 @@ h1 {
 }
 
 .navbar .navbar-toggle:hover {
-  background-color: #fd9f9f;
+  background-color: rgb(243, 170, 40);
 }
 
 
@@ -50,16 +50,20 @@ h1 {
 
  .nav {
   background-color: rgb(243, 170, 40);
+  padding: 0.1% 7%;
   border: none;
 
 }
 
 .navbar-brand img {
+  height: 5vh;
 }
 
+.menu__line {
+  width: 30%;
+}
 
 section {
-  /*height: 100vh;*/
   width: 100vw;
 
 }
@@ -76,40 +80,56 @@ section {
 
 
 #s1 {
-  background-color: #fbe6e6;
+  background-image: url("img/bg/s1__bg.png");
+  background-position: center;
+  background-size: cover;
+
+
 }
 
 #s1__counter {
+  position: relative;
   flex-grow: 1;
-  flex-basis: 450px;
-}
-
-.s1__mainPic {
-  height: 100hv;
+  flex-basis: 200px;
 }
 
 
-.s1__button {
-  margin-bottom: 15%;
-  padding: 15px 32px;
-  border-radius: 32px;
-  border: none;
-  text-align: center;
-  background-color: white;
-  color: #2d313c;
+
+.s1--mods {
+  position: relative;
+  height: 100vh;
+  align-items: flex-end;
+}
+
+.s1__timer {
+
+
+}
+
+.s1__button--fund {
+  flex-basis: 150px;
+  padding-bottom: 5vh;
+
 }
 
 #s2 {
-  background-color: #f2c1c1;
+  background-image: url("img/bg/s2__bg.png");
 }
 
 .s2--mods {
-  background-color: #f9d3d3;
   padding: 20% 10% 20% 10%;
 }
 
+#s7 {
+
+}
+
+.s7--mods {
+  height: 100vh;
+}
+
 #s3 {
-  background-color: #c3efe6;
+  background-image: url("img/bg/s3__bg.png");
 }
 
 .s3--mods {
@@ -118,11 +138,14 @@ section {
 
 .s3__title {
   background-color: #fbe6e6;
-  width: 100vw;
+  justify-content: flex-start;
   height: 10vh;
+  margin-bottom: 5px;
 }
 
-.s3__item {
+.s3__title__button {
+  flex-basis: 200px;
+
 }
 
     .s3__item1 {
@@ -140,19 +163,45 @@ section {
     }
 
 #s4 {
-  background-color: #f7f6d6;
+  background-image: url("img/bg/s4__bg.png");
 }
 
-.s4--mods {
-  padding: 5% 10% 5% 10%;
+.s4--mods1 {
+  padding: 5% ;
 }
 
 .s4__title {
-  background-color: #fbe6e6;
-  width: 100vw;
-  height: 10vh;
-  margin: 2.5px;
+  flex-basis: 65px;
+  width: 5vw;
+  height: 100vh;
+
+
 }
+
+.s4__content {
+  flex-basis: 1000px;
+  height: 100vh;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+
+}
+
+.s4__item {
+
+  flex-basis: 300px;
+  flex-grow: 3;
+  margin: 0 5px;
+  position: relative;
+
+
+}
+
+/*
+.s4__item>img {
+  position: absolute;
+}
+*/
 
 .s4__item1 {
   flex-grow: 1;
@@ -186,7 +235,7 @@ section {
 }
 
 #s6 {
-  background-color: #f7f6d6;
+  background-image: url("img/bg/s7__bg.png");
 }
 
 .s6--mods {
@@ -206,6 +255,10 @@ section {
   height: 250px;
   background-color: #f9d3d3;
   margin: 2.5px;
+}
+
+#s7 {
+  background-image: url("img/bg/s7__bg.png");
 }
 
 .foot-bar {

@@ -24,12 +24,13 @@
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a  href="#s1">首頁</a></li>
                     <li><a  href="#s2">最新消息</a></li>
                     <li><a  href="#s3">活動資訊</a></li>
-                    <li><a  href="#s4">演出樂團</a></li>
-                    <li><a  href="#s5">LINE UP</a></li>
-                    <li><a  href="#s6">售票資訊</a></li>
+                    <li><a  href="#s4">演出藝人</a></li>
+                    <li><a  class="active" href="#s6">售票資訊</a></li>
+                    <li><a  href="#s5">時間表</a></li>
+                    <li><a  href="#s5"><img src="img/logo__fb.png" alt=""></a></li>
+
                 </ul>
             </div>
         </div>
@@ -54,14 +55,26 @@
 -->
 
     <section class="section" id="s1">
+      <div class="flex-container s1--mods">
+        <!--
+      <div class="s1__count">
+        <h1 id="s1__counter"></h1>
+      </div>
+    -->
+    <div class="flex-container s1__timer">
 
-      <div class="flex-container wrap">
-        <div class="s1__mainPic"><img src="img/s1__mainPic.png" alt=""></div>
-        <!--<button onclick="" class="s1__button">購票去</button>-->
-        <div><h1 id="s1__counter"></h1>
-          </div>
-        <!--<div class="flex-container"><a href="#" class="s1__button">購票去</a></div>-->
+    </div>
+      <div class="flex-container s1__button--fund">
+        <a href="#"><img src="img/button/s1__button--fund.png" alt=""></a>
+      </div>
+      </div>
+    </section>
 
+    <section class="section" id="s7">
+      <div class="flex-container s7--mods">
+        <div class="s7__title"></div>
+        <div class="s7__content"></div>
+      </div>
     </section>
 
     <section class="section" id="s2">
@@ -74,18 +87,23 @@
             噪祭的文字介紹甘噪祭的文字</p>
       </div>
     </section>
-    <section class="section" id="s3">
-      <div class="flex-container s3--mods wrap">
-          <div class="s3__title">活動資訊</div>
-          <div class="flex-container s3__item">
-            <div class="s3__item1">map</div>
-            <div class="s3__item2">map info</div>
-          </div>
-      </div>
-    </section>
+
     <section class="section" id="s4">
-      <div class="flex-container wrap s4--mods">
-        <div class="s4__title">演出者</div>
+      <div class="flex-container wrap s4--mods1">
+        <div class="s4__title"><img src="img/title/cast.png" alt=""></div>
+        <div class="flex-container s4__content wrap">
+          <div class="s4__item"><img src="img/s4__castcontent.png" style="z-index: 2">
+            <div style="position:absolute"></div>
+          </div>
+          <div class="s4__item"><img src="img/s4__castcontent.png" alt=""></div>
+          <div class="s4__item"><img src="img/s4__castcontent.png" alt=""></div>
+          <div class="s4__item"><img src="img/s4__castcontent.png" alt=""></div>
+          <div class="s4__item"><img src="img/s4__castcontent.png" alt=""></div>
+          <div class="s4__item"><img src="img/s4__castcontent.png" alt=""></div>
+
+
+        </div>
+        <!--
         <div class="flex-container">
           <div class="s4__item1"><img src="img/sweetjohn.jpg" alt=""></div>
           <div class="s4__item1"><img src="img/bugsofphonon.jpg" alt=""></div>
@@ -99,11 +117,27 @@
           <div class="s4__item1"><img src="img/bugsofphonon.jpg" alt=""></div>
           <div class="s4__item1"><img src="img/sweetjohn.jpg" alt=""></div>
           <div class="s4__item1"><img src="img/bugsofphonon.jpg" alt=""></div>
-
         </div>
+      -->
 
       </div>
     </section>
+
+    <section class="section" id="s3">
+      <div class="flex-container s3--mods wrap">
+          <div class="flex-container s3__title">
+            <div class="s3__title__button"><img src="img/button/s3__button.png" alt=""></div>
+            <div class="s3__title__button"><img src="img/button/s3__button.png" alt=""></div>
+            <div class="s3__title__button"><img src="img/button/s3__button.png" alt=""></div>
+          </div>
+          <div class="flex-container s3__item">
+            <div class="s3__item1"><img src="img/s3__body1.png" alt=""></div>
+            <div class="s3__item2"><img src="img/s3__body2.png" alt=""></div>
+          </div>
+      </div>
+    </section>
+
+  <!-- Line up
     <section class="section" id="s5">
       <div class="flex-container wrap s5--mods">
         <div class="s5__title">LINE UP</div>
@@ -115,6 +149,7 @@
         </div>
       </div>
     </section>
+-->
 
     <section class="section" id="s6">
       <div class="flex-container wrap s6--mods">
