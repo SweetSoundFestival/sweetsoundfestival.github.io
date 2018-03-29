@@ -11,7 +11,8 @@ div {
 
 h1 {
   color: rgb(27,111,157);
-  font-size: 3vw;
+  font-size: 2vw;
+  font-family: sans-serif;
 }
 
 .flex-container img {
@@ -19,6 +20,7 @@ h1 {
 
 }
 
+/* navbar */
 
 .navbar .navbar-nav>li>a {
   color: white;
@@ -49,24 +51,62 @@ h1 {
   border-radius: 0px;
 }
 
- .nav {
+.navbar-default .navbar-nav>li>a {
+  color: #fff;
+  opacity: 0.8;
+  transition: .2s;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: #fff;
+  opacity: 1;
+}
+
+.nav {
   background-color: rgb(243, 170, 40);
   padding: 0.1% 7%;
   border: none;
   vertical-align: middle;
 }
 
-.nav--mods1 {
-  line-height: 30px;
-}
 
 .navbar-brand img {
   height: 5vh;
 }
 
-.menu__line {
-  width: 30%;
+.hvr-underline-from-center {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    overflow: hidden;
 }
+.hvr-underline-from-center:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    background: #ffffff;
+    height: 4px;
+    -webkit-transition-property: left, right;
+    transition-property: left, right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+.hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
+    left: 0;
+    right: 0;
+}
+
 
 section {
   width: 100vw;
@@ -81,7 +121,6 @@ section {
   width: 100vw;
   text-align: center;
 }
-
 
 
 #s1 {
@@ -380,21 +419,22 @@ section {
   background-image: url("img/bg/s3__bg.png");
 }
 
-@media (max-width: 768px) {
+@media (min-width: 1024px) {
 
-
-}
+ }
 
 
 @media (min-width: 576px) {  }
 
 
 @media (max-width: 768px) {
-  .s4__title, .s7__title {
+
+  .s1__timer, .s4__title, .s7__title {
     display: none;
   }
+
+
+
  }
 
 @media (min-width: 992px) {  }
-
-@media (min-width: 1200px) {  }
