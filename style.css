@@ -70,8 +70,12 @@ h1 {
 }
 
 
+.navbar-brand {
+  padding-top: 1vh;
+}
+
 .navbar-brand img {
-  height: 5vh;
+  max-width: 100%;
 }
 
 .hvr-underline-from-center {
