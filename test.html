@@ -17,13 +17,6 @@
   </head>
   <body>
 
-  <style>
-
-
-    .navbar {
-      padding: 1% 15%;
-    }
-  </style>
   <nav class="navbar navbar-expand-lg  navbar-dark bg-dark">
 
     <a class="navbar-brand" href="#"><img src="img/logo__brand.svg" width="70vw"></a></li>
@@ -50,7 +43,54 @@
 </div>
 </nav>
 
-<span id="day"></span>
+
+<div class="timer flex-container">
+  <div class="cir">
+    <h3  id="day"></h3>
+    <h4>天</h4>
+  </div>
+  <div class="cir">
+    <h3  id="hour"></h3>
+    <h4>時</h4>
+  </div>
+  <div class="cir">
+    <h3  id="minute"></h3>
+    <h4>分</h4>
+  </div>
+  <div class="cir">
+    <h3  id="second"></h3>
+    <h4>秒</h4>
+  </div>
+</div>
+
+
+
+<style>
+
+  .timer {
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+  }
+
+  .cir {
+    flex-grow: 4;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    border: #136e9f solid 1px;
+    padding-top: 1.5vh;
+    vertical-align: middle;
+    text-align: center;
+    margin: 0.2%;
+    color: #136e9f;
+
+  }
+
+  
+</style>
 
   </body>
 </html>

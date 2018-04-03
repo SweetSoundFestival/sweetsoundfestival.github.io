@@ -171,10 +171,28 @@ section {
 
 }
 
+.s1__title {
+  padding-bottom: 1%;
+}
+
 .s1__timer {
-  width: 30vw;
+  width: 450px;
   flex-basis: 10vw;
   position: relative;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+}
+
+.s1__timer__cir {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  border: #136e9f solid 1px;
+  padding-top: 0.5vh;
+  vertical-align: middle;
+  text-align: center;
+  color: #136e9f;
+
 }
 
 #s1__counter {
@@ -453,7 +471,7 @@ section {
   background-image: url("img/bg/s3__bg.png");
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .navbar-nav > li {
     padding: 1% 5px;
     line-height: 27px;
