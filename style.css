@@ -103,7 +103,19 @@ h4 {
  padding: 9px 10px !important;
 }
 
+.with-line {
+  position: absolute;
+  z-index: -1;
+  left: 10%;
+  height: 1px;
+  width: 80%;
+  background: white;
+  top: 50%;
+}
 
+.navbar-right, .nav__brand {
+  background: rgb(243, 170, 40);
+}
 
 .hvr-underline-from-center {
     display: inline-block;
@@ -121,27 +133,27 @@ h4 {
     content: "";
     position: absolute;
     z-index: -1;
-    left: 50%;
-    right: 50%;
+    left: 0;
+    right: 0;
+    margin: auto;
     bottom: 0;
     background: #ffffff;
     height: 4px;
-    -webkit-transition-property: left, right;
-    transition-property: left, right;
+    width: 0px;
+    opacity: 0;
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
     -webkit-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
 }
 .hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
-    left: 0;
-    right: 0;
+  width: 100%;  
+  opacity: 1;
 }
 
 
 section {
   width: 100vw;
-
 }
 
 .flex-container {
@@ -159,7 +171,6 @@ section {
   background-position: center;
   background-size: cover;
   background-color: rgb(243, 170, 40);
-
 }
 
 
@@ -220,8 +231,6 @@ section {
   margin-top: 3vh;
 
 }
-
-
 
 #s2 {
   background-image: url("img/bg/s2__bg.png");
