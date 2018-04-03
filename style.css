@@ -408,26 +408,39 @@ section {
 }
 
 #s6 {
-  background-image: url("img/bg/s7__bg.png");
+  background-image: url("img/bg/s2__bg.png");
 }
 
 .s6--mods {
-  padding: 5% 10% 5% 10%;
+  align-items: flex-start;
+  padding: 7% 0;
 }
 
 .s6__title {
-  background-color: #fbe6e6;
-  width: 100vw;
-  height: 10vh;
-  margin: 2.5px;
+  width: 5vw;
+  margin-right: 1vw;
 }
 
-.s6__item {
+.s6__content {
+  flex-basis: 80vw;
+}
+
+.s6__content__item {
   flex-grow: 3;
-  flex-basis: 250px;
-  height: 250px;
-  background-color: #f9d3d3;
-  margin: 2.5px;
+  flex-basis: 300px;
+  width: 25vw;
+  margin: 1vw;
+  position: relative;
+  align-items: flex-start;
+  z-index: 2;
+}
+
+#s6__t-1 {
+  background-image: url("img/ticket/ticket__300.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100px;
 }
 
 #s7 {
@@ -470,11 +483,22 @@ section {
   }
   */
 
+
+
   .s1__timer, .s4__title, .s7__title {
     display: none;
  }
 
-@media (max-width: 576px) {  }
+@media (max-width: 576px) {
+  #s1 {
+    background-image: url("img/phone/p__s1__bg.png");
+  }
+
+  .s1__button--fund {
+
+  }
+
+}
 
 
 
