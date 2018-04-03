@@ -56,19 +56,22 @@ h1 {
   border: none;
 }
 
-.navbar-default .navbar-nav>li>a {
+
+ .navbar-nav>li>a {
   color: #fff;
   opacity: 0.8;
   transition: .2s;
 }
 
-.navbar-default .navbar-nav>li>a:hover {
+ .navbar-nav>li>a:hover {
   color: #fff;
   opacity: 1;
 }
 
-.nav {
 
+.nav__menuline {
+  width: 40%;
+  height: 1px;
 }
 
 .navbar {
@@ -84,10 +87,6 @@ h1 {
  line-height: 80px;
  margin-top: 0;
 
-}
-
-.navbar-brand--mods {
-  vertical-align: middle;
 }
 
 .navbar-toggle, .navbar-brand>img {
@@ -151,11 +150,9 @@ section {
   background-image: url("img/bg/s1__bg.png");
   background-position: center;
   background-size: cover;
-
+  background-color: rgb(243, 170, 40);
 
 }
-
-
 
 
 
