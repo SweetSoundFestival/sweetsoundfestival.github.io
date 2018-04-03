@@ -15,6 +15,14 @@ h1 {
   font-family: sans-serif;
 }
 
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
 .flex-container img {
   max-width: 100%;
 
@@ -471,6 +479,8 @@ section {
   background-image: url("img/bg/s3__bg.png");
 }
 
+
+
 @media (min-width: 769px) {
   .navbar-nav > li {
     padding: 1% 5px;
@@ -488,6 +498,16 @@ section {
   }
  }
 
+ @media (max-width: 1024px) {
+   .s1__func {
+     margin-bottom: 13vh;
+   }
+
+   .s1__title {
+     padding-bottom: 5%;
+   }
+ }
+
  @media (max-width: 768px) {
    /*
   .navbar-nav > li > a {
@@ -497,8 +517,6 @@ section {
     line-height: 27px;
   }
   */
-
-
 
   .s1__timer, .s4__title, .s7__title {
     display: none;
