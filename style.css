@@ -22,6 +22,11 @@ h1 {
 
 /* navbar */
 
+.container-fluid {
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
 .navbar .navbar-nav>li>a {
   color: white;
 }
@@ -42,8 +47,8 @@ h1 {
   background-color: white;
 }
 
-.navbar .navbar-toggle:hover {
-  background-color: rgb(243, 170, 40);
+.navbar-toggle:hover {
+  background-color: #f5ab00;
 }
 
 .navbar-toggle {
@@ -63,14 +68,14 @@ h1 {
 }
 
 .nav {
+
+}
+
+.navbar {
   background-color: rgb(243, 170, 40);
   padding: 0.1% 7%;
   border: none;
   vertical-align: middle;
-}
-
-.navbar {
- min-height: 80px;
 }
 
 .navbar-brand {
@@ -92,15 +97,6 @@ h1 {
 }
 
 
-
-/*
-.navbar-brand {
-  padding-top: 1vh;
-}
-
-.navbar-brand img {
-  max-width: 100%;
-}*/
 
 .hvr-underline-from-center {
     display: inline-block;
@@ -447,30 +443,39 @@ section {
   background-image: url("img/bg/s3__bg.png");
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
+  .navbar-nav > li {
+    padding: 1% 5px;
+    line-height: 27px;
+  }
 
+  .nav > li {
+    padding: 10px 15px;
+  }
+
+  .nav > li > a {
+    padding: 15px 0px 15px 0px;
+
+
+  }
  }
 
- @media (min-width: 768px) {
+ @media (max-width: 768px) {
+   /*
   .navbar-nav > li > a {
-    /* (80px - line-height of 27px) / 2 = 26.5px */
+    (80px - line-height of 27px) / 2 = 26.5px
     padding-top: 26.5px;
     padding-bottom: 26.5px;
     line-height: 27px;
   }
- }
-
-@media (min-width: 576px) {  }
-
-
-@media (max-width: 768px) {
+  */
 
   .s1__timer, .s4__title, .s7__title {
     display: none;
-  }
-
-
-
  }
 
-@media (min-width: 992px) {  }
+@media (max-width: 576px) {  }
+
+
+
+@media (max-width: 992px) {  }
