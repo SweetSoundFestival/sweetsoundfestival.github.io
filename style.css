@@ -147,13 +147,14 @@ h4 {
     transition-timing-function: ease-out;
 }
 .hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
-  width: 100%;  
+  width: 100%;
   opacity: 1;
 }
 
 
 section {
-  width: 100vw;
+  /*width: 100vw;*/
+
 }
 
 .flex-container {
@@ -161,7 +162,7 @@ section {
   flex-flow: row wrap;
   align-items: center;
   justify-content: center;
-  width: 100vw;
+  /*width: 100vw;*/
   text-align: center;
 }
 
@@ -171,6 +172,7 @@ section {
   background-position: center;
   background-size: cover;
   background-color: rgb(243, 170, 40);
+  width: 100vw;
 }
 
 
