@@ -125,6 +125,10 @@ h4 {
   background: rgb(243, 170, 40);
 }
 
+.nav__brand {
+
+}
+
 .hvr-underline-from-center {
     display: inline-block;
     vertical-align: middle;
@@ -522,7 +526,14 @@ section {
 
  @media (min-width: 768px) {
     .navbar-right {
-      margin-top: 15px;
+      margin-top: 8px;
+    }
+
+ }
+
+ @media (min-width: 767px) {
+    .navbar-right {
+      margin-top: 20px;
     }
 
  }
