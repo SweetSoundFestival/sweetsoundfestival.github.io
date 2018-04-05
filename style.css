@@ -94,8 +94,8 @@ h4 {
  height: 80px;
  line-height: 80px;
  margin-top: 0;
-
 }
+
 
 .navbar-toggle, .navbar-brand>img {
  /* (80px - button height 34px) / 2 = 23px */
@@ -106,9 +106,9 @@ h4 {
 .with-line {
   position: absolute;
   z-index: -1;
-  left: 10%;
+  left: 18%;
   height: 1px;
-  width: 80%;
+  width: 60%;
   background: white;
   top: 50%;
 }
@@ -503,7 +503,7 @@ section {
   }
 
   .nav > li > a {
-    padding: 15px 0px 15px 0px;
+    padding: 25px 0px 15px 0px;
 
 
   }
