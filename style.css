@@ -76,6 +76,10 @@ h4 {
   opacity: 1;
 }
 
+.nav>li>a:hover {
+  background-color: transparent;
+}
+
 
 .nav__menuline {
   width: 40%;
@@ -90,7 +94,7 @@ h4 {
 }
 
 .navbar-brand {
- padding: 0 15px;
+ padding: inherit;
  height: 80px;
  line-height: 80px;
  margin-top: 0;
@@ -103,10 +107,14 @@ h4 {
  padding: 9px 10px !important;
 }
 
+.navbar-default .navbar-toggle:hover {
+  background-color: transparent;
+}
+
 .with-line {
   position: absolute;
   z-index: -1;
-  left: 18%;
+  left: 15%;
   height: 1px;
   width: 60%;
   background: white;
