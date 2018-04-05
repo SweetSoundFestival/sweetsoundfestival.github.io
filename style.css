@@ -531,7 +531,7 @@ section {
 
  }
 
- @media (min-width: 767px) {
+ @media (min-width: 767px) and (max-width: 768px){
     .navbar-right {
       margin-top: 20px;
     }
@@ -540,6 +540,9 @@ section {
 
  @media (max-width: 768px) {
 
+  .navbar-brand>img {
+    width: 14vh;
+  }
 
    .s4__title, .s7__title {
     display: none;
