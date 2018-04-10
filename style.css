@@ -186,14 +186,13 @@ section {
   background-size: cover;
   background-color: rgb(243, 170, 40);
   height: 100vh;
-  width: 100%;
 }
 
 
 
 .s1--mods {
   position: relative;
-  align-items: flex-end;
+  align-items: flex-start;
 }
 
 .s1__funcs {
@@ -207,6 +206,7 @@ section {
 
 .s1__title {
   padding-bottom: 6vh;
+  padding-top: 63vh;
 }
 
 .s1__timer {
@@ -244,7 +244,6 @@ section {
 
 .s1__button--fund {
   width: 20vh;
-  padding-bottom: 1vh;
   margin-top: 3vh;
 
 }
@@ -505,6 +504,8 @@ section {
   background-image: url("img/bg/s3__bg.png");
 }
 
+/*@media (min-height: )*/
+
 
 
 @media (min-width: 769px) {
@@ -541,7 +542,7 @@ section {
  @media (max-width: 768px) {
 
   .navbar-brand>img {
-    width: 14vh;
+    width: 100px;
   }
 
    .s4__title, .s7__title {
@@ -578,8 +579,8 @@ section {
 
   }
 
-  .s1__title, .s1__timer {
-    display: none;
+  .s1__title {
+    padding-top: 54vh;
   }
 
 }
@@ -593,60 +594,8 @@ section {
     padding-bottom: 1vh;
   }
 
-
-  .s1__button--fund {
-    width: 17vh;
-    padding-bottom: 4vh;
   }
 
-  }
-  @media (max-width: 415px) {
-    .s1__button--fund {
-      padding-bottom: 7vh;
-    }
-  }
-
-  @media (max-width: 405px) {
-    .s1__button--fund {
-      padding-bottom: 8vh;
-    }
-  }
-
-  @media (max-width: 400px) {
-    .s1__button--fund {
-      padding-bottom: 9vh;
-    }
-  }
-
-  @media (max-width: 392px) {
-    .s1__button--fund {
-      padding-bottom: 10vh;
-    }
-  }
-
-@media (max-width: 386px) {
-  .s1__button--fund {
-    padding-bottom: 11vh;
-  }
-}
-
-@media (max-width: 380px) {
-  .s1__button--fund {
-    padding-bottom: 12vh;
-  }
-}
-
-@media (max-width: 366px) {
-  .s1__button--fund {
-    padding-bottom: 15vh;
-  }
-}
-
-@media (max-width: 361px) {
-  .s1__button--fund {
-    padding-bottom: 15vh;
-  }
-}
 
   @media (max-width: 350px) {
 
