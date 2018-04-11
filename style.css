@@ -573,14 +573,14 @@ section {
 
  }
 
-@media (max-width: 576px) {
+@media (max-width: 475px) {
   #s1 {
     background-image: url("img/phone/p__s1__bg.png");
 
   }
 
   .s1__title {
-    padding-top: 50vh;
+    padding-top: 70vw;
   }
 
 }
