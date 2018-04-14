@@ -563,14 +563,6 @@ section {
       border-radius: 75px;
     }
 
-    h3 {
-      font-size: 20px;
-    }
-
-    h4 {
-      font-size: 10px;
-    }
-
  }
 
 @media (min-width: 446px) {
@@ -582,6 +574,7 @@ section {
 @media (max-width: 445px) {
   #s1 {
     background-image: url("img/phone/p__s1__bg.png");
+    display: block;
   }
 
   .s1--mods {
@@ -590,7 +583,7 @@ section {
   }
 
   .s1__funcs {
-    margin-bottom: 20vh;
+    margin-bottom: 0;
   }
 
   .p__s1__brand {
@@ -609,11 +602,11 @@ section {
   }
 
   .s1__title {
-    width: 22%;
+    width: 23%;
   }
 
   .p__s1__title {
-    padding: 0;
+    padding: 1vh 0 2vh 0;
   }
 
   .p__s1__timer {
@@ -637,56 +630,26 @@ section {
     padding-top: 2px;
   }
 
+  .s1__button--fund {
+    margin-top: 2vh;
+  }
+
   .p__s1__people {
     overflow: hidden;
     position: absolute;
     z-index: 1;
-    margin-top: 51vh;
+    margin-top: -7vh;
   }
-
 }
 
-@media (max-width: 435px) {
-  .s1__title, .s1__timer {
-    display: flex;
+@media (max-width:374px) {
+  .p__s1__word, .p__s1__people {
+    display: none;
   }
+}
 
+@media (max-width:320px) {
+  .p__s1__timer {
+    display: none;
   }
-
-
-  @media (max-width: 350px) {
-
-
-
-    .s1__timer {
-      flex-basis: 9vh;
-      padding-bottom: 1.5vh;
-    }
-
-    .s1__timer__cir {
-      width: 60px;
-      height: 60px;
-      border-radius: 60px;
-    }
-
-    .cir__item1 {
-      margin-top: 10px;
-    }
-
-    h3 {
-      font-size: 15px;
-    }
-
-    h4 {
-      font-size: 10px;
-    }
-
-    .s1__button--fund {
-      padding-bottom: 20vh;
-      width: 17vh;
-    }
-  }
-
-  @media (max-width: 320px) {
-
-  }
+}
