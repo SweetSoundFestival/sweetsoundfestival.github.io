@@ -181,7 +181,7 @@ section {
 
 
 #s1 {
-  background-image: url("img/bg/s1__bg.png");
+  background-image: url("img/bg/s1__bg*.png");
   background-position: top;
   background-size: cover;
   background-color: rgb(243, 170, 40);
@@ -249,6 +249,10 @@ section {
   width: 20vh;
   margin-top: 3vh;
 
+}
+
+.s1__people {
+  margin-top: -60vh;
 }
 
 #s2 {
@@ -557,21 +561,45 @@ section {
     justify-content: center;
   }
 
-    .s1__timer__cir {
-      width: 75px;
-      height: 75px;
-      border-radius: 75px;
-    }
 
+
+ }
+
+ @media (max-width: 730px) {
+   #s1 {
+     background-image: url("img/bg/s1__bg.png");
+   }
  }
 
 @media (min-width: 446px) {
   .p__s1__brand, .p__s1__people {
     display: none;
   }
+
+  .cir__item1 {
+    flex-basis: 90px;
+    font-size: 30px;
+    padding-top: 15px;
+  }
+
+  .cir__item2 {
+    font-size: 18px;
+    padding-bottom: 15px;
+  }
 }
 
 @media (max-width: 445px) {
+
+  .s1__timer__cir {
+    width: 75px;
+    height: 75px;
+    border-radius: 75px;
+  }
+
+  .s1__people {
+    display: none;
+  }
+
   #s1 {
     background-image: url("img/phone/p__s1__bg.png");
     display: block;
