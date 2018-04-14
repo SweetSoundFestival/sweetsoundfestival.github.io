@@ -632,3 +632,7 @@ section {
       width: 17vh;
     }
   }
+
+  @media (max-width: 320px) {
+    
+  }
