@@ -573,7 +573,7 @@ section {
 
  }
 
-@media (max-width: 475px) {
+@media (max-width: 445px) {
   #s1 {
     background-image: url("img/phone/p__s1__bg.png");
 
@@ -634,5 +634,5 @@ section {
   }
 
   @media (max-width: 320px) {
-    
+
   }
