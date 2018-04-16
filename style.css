@@ -513,6 +513,12 @@ section {
   background-image: url("img/bg/s3__bg.png");
 }
 
+@media (min-width: 1024px) and (max-height: 530px) {
+  .s1__timer, .s1__title {
+    display: none;
+  }
+}
+
 
 @media (min-width: 769px) {
   .navbar-nav > li {
