@@ -88,7 +88,7 @@ h4 {
 }
 
 .navbar {
-  background-color: rgb(243, 170, 40);
+  background-color: #f5ab00;
   padding: 0.1% 7%;
   border: none;
   vertical-align: middle;
@@ -123,7 +123,7 @@ h4 {
 }
 
 .navbar-right, .nav__brand {
-  background: rgb(243, 170, 40);
+  background: #f5ab00;
 }
 
 .nav__brand {
@@ -184,7 +184,7 @@ section {
   background-image: url("img/bg/s1__bg1.png");
   background-position: top;
   background-size: cover;
-  background-color: rgb(243, 170, 40);
+  background-color: #f5ab00;
   height: 100vh;
 }
 
