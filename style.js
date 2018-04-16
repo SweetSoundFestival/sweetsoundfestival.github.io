@@ -1,10 +1,3 @@
-$(window).bind(
-  'touchmove',
-   function(e) {
-    e.preventDefault();
-  }
-);
-
 // Set the date we're counting down to
 var countDownDate = new Date("May 21, 2018 23:59:59").getTime();
 
