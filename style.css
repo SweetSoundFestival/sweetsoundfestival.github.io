@@ -2,7 +2,7 @@ html,body {
 width: 100%;
 margin: 0px;
 color: #fff;
-overflow: hidden;
+
 }
 
 
@@ -394,6 +394,8 @@ section {
 
 #s4 {
   background-image: url("img/bg/s4__bg.png");
+  z-index: 5;
+  position: absolute;
 }
 
 .s4--mods {
@@ -466,6 +468,8 @@ section {
 
 #s6 {
   background-image: url("img/bg/s2__bg.png");
+  position: absolute;
+
 }
 
 .s6--mods {
@@ -674,7 +678,7 @@ section {
     overflow: hidden;
     position: absolute;
     z-index: 1;
-    margin-top: -7vh;
+    margin-top: 54vh;
   }
 }
 
