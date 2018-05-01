@@ -1,3 +1,40 @@
+$(document).ready(function(){
+
+  /*if($(document).width > "768px") {
+
+    $("#sj__pic").hover(function() {
+      $("#sj__word").toggle();
+    });
+
+    $("#bug__pic").hover(function() {
+      $("#bug__word").toggle();
+    });
+
+    $("#os__pic").hover(function() {
+      $("#os__word").toggle();
+    });
+
+    $("#byg__pic").hover(function() {
+      $("#byg__word").toggle();
+    });
+
+    $("#egg__pic").hover(function() {
+      $("#egg__word").toggle();
+    });
+
+    $("#cons__pic").hover(function() {
+      $("#cons__word").toggle();
+    });
+
+  }*/
+
+
+
+
+
+
+});
+
 // Set the date we're counting down to
 var countDownDate = new Date("June 8, 2018 18:00:00").getTime();
 
