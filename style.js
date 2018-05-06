@@ -1,5 +1,12 @@
 $(document).ready(function(){
 
+
+
+  $("input.submit").click(function(){
+    alert ( $("input.q1").val() );
+    $.getScript("https://docs.google.com/forms/d/1NtTN7Y9CgedNU5uXQ6mr3_7AUunGKrsdR-bBbGxcT3Q/formResponse?entry.1847439294=" + $("input.q1").val());
+  });
+
   /*if($(document).width > "768px") {
 
     $("#sj__pic").hover(function() {

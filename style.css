@@ -29,6 +29,10 @@ h4 {
 
 }
 
+section {
+  overflow: hidden;
+}
+
 /* navbar */
 
 .container-fluid {
@@ -446,11 +450,14 @@ section {
   display: none;
 }
 
-#sj__word, #bug__pic, #byg__pic, #os__pic, #egg__pic, # {
+#s01__word, #s02__word, #s03__word, #s04__word, #s05__word, #s06__word, #s07__word, #s08__word, #s09__word, #s10__word, #s11__word, #s12__word  {
   display: none;
 }
 
-#sj__pic:hover #sj__word {
+#s01__pic:hover #s01__word, #s02__pic:hover #s02__word, #s03__pic:hover #s03__word, #s04__pic:hover #s04__word, #s05__pic:hover #s05__word, #s06__pic:hover #s06__word, #s07__pic:hover #s07__word,
+#s08__pic:hover #s08__word, #s09__pic:hover #s09__word, #s10__pic:hover #s10__word, #s11__pic:hover #s11__word, #s12__pic:hover #s12__word, #s13__pic:hover #s13__word, #s14__pic:hover #s14__word,
+#s15__pic:hover #s15__word, #s16__pic:hover #s16__word
+ {
   display: block;
 }
 
@@ -606,10 +613,15 @@ section {
   .s4__content__item {
     flex-grow: 2;
     flex-basis: 200px;
+    margin: 2vw 1vw 4vw 1vw;
   }
 
   .s4__content__item__word {
-    display: block;
+    top: 65%;
+  }
+
+  .s4__content__item__pic {
+    opacity: 1;
   }
 
   .s6__title {
@@ -621,7 +633,7 @@ section {
     flex-basis: 200px;
   }
 
-  #sj__word {
+  #s01__word, #s02__word, #s03__word, #s04__word, #s05__word, #s06__word, #s07__word, #s08__word, #s09__word, #s10__word, #s11__word, #s12__word  {
     display: block;
   }
 
