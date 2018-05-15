@@ -404,13 +404,13 @@ section {
 .s4--mods {
   align-items: flex-start;
   padding: 7% 0;
-  justify-content: flex-start;
 
 }
 
 .s4__title {
   width: 5vw;
-  margin-right: 1vw;
+  position: absolute;
+  left: 7vw;
 }
 
 .s4__title--phone {
@@ -419,11 +419,13 @@ section {
 
 .s4__content {
   flex-basis: 80vw;
+  justify-content: flex-start;
+  margin-left: 14vw;
 }
 
 .s4__content__item {
-  flex-grow: 3;
-  flex-basis: 250px;
+
+  flex-basis: 290px;
   width: 25vw;
   margin: 1vw 1vw 4vw 1vw;
   position: relative;
@@ -569,6 +571,13 @@ section {
   }
 }
 
+@media (max-width: 1013px) {
+  .s4__content {
+    margin-left: 0;
+    justify-content: center;
+  }
+}
+
 
 
 @media (min-width: 1024px) and (max-height: 530px) {
@@ -689,15 +698,28 @@ section {
   }
  }
 
- @media (max-width: 527px) {
+ @media (max-width: 529px) {
+
+   .s4__content {
+     margin-left: 0;
+     justify-content: center;
+   }
+
+   .s4__content__item {
+     justify-content: center;
+   }
 
   .s4__content__item img {
     width: 80%;
   }
 
+  .s6__title--phone img {
+    margin-bottom: 5px;
+  }
+
   .s6__content__item {
     width: auto;
-    flex-basis: 250px;
+    flex-basis: 300px;
   }
 
   .s6__content__item img {
