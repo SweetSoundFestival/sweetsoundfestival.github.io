@@ -601,6 +601,7 @@ section {
 
   .s4__title--phone, .s6__title--phone {
     display: block;
+    flex-basis: 300px;
   }
 
   .s4__title--phone img {
