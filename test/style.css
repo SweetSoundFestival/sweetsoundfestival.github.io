@@ -616,12 +616,16 @@ section {
   }
 
   .s4__content__item__word {
-    top: 65%;
-    left: 11%;
+    top: 60%;
+    left: 13%;
   }
 
   .s6__title--phone img {
     width: 35%;
+  }
+
+  .s4__content__item__pic {
+    padding: 2vw 4vw;
   }
 
 
@@ -820,7 +824,6 @@ section {
     vertical-align: middle;
     text-align: center;
     justify-content: center;
-    padding-top: 2px;
   }
 
   .s1__button--fund {
