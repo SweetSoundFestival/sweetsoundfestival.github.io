@@ -29,12 +29,3 @@ var x = setInterval(function() {
         document.getElementById("s1__counter").innerHTML = "開唱啦";
     }
 }, 1000);
-
-var slider = document.getElementById("myRange");
-var output = document.getElementById("demo");
-output.innerHTML = slider.value; // Display the default slider value
-
-// Update the current slider value (each time you drag the slider handle)
-slider.oninput = function() {
-    output.innerHTML = this.value;
-}
