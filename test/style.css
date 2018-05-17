@@ -785,6 +785,10 @@ section {
     width: 80%;
   }
 
+  .s4__content__item__pic {
+    width: 100%;
+  }
+
   .s6__title--phone img {
     margin-bottom: 5px;
   }
