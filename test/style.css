@@ -464,7 +464,7 @@ section {
 
 
 #s4 {
-  background-image: url("img/bg/s4__bg.png");
+  background: #136e9f;
   z-index: 5;
 }
 
@@ -562,7 +562,7 @@ section {
 }
 
 #s6 {
-  background-image: url("img/bg/s2__bg.png");
+  background: #1e9b8e;
   width: 100vw;
 
 }
@@ -608,22 +608,13 @@ section {
   margin-top: 1vh;
 }
 
-
-#s6__t-1 {
-  background-image: url("img/ticket/ticket__300.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 100px;
-}
-
 #s7 {
   background-image: url("img/bg/s7__bg.png");
 }
 
 
 #foot {
-  background-image: url("img/bg/s3__bg.png");
+  background: #f4f0e3;
   width: 100vw;
 }
 
@@ -648,22 +639,32 @@ section {
   margin-left: 6vw;
 }
 
-.f1, .f2, .f3,.f4 {
+.f1, .f2, .f3, .f4 {
   flex-direction: column;
   margin: 1vw 5vw;
-
 }
 
 .f3 {
-  justify-content: flex-start;
-  align-items: flex-start;
+  flex-basis: 20vw;
 }
 
 .f3--mods {
+  flex-flow: column wrap;
+  height: 20vw;
 }
 
 .f1-1, .f1-2, .f2-1, .f2-2, .f3-1, .f3-2, .f3-3, .f3-4, .f3-5, .f3-6, .f3-7, .f4-1, .f4-2 {
   margin: 1vw;
+}
+
+.bot-logo {
+  background: #f4f0e3;
+  color: #1e9b8e;
+  padding-bottom: 0.5vw;
+}
+
+.bot-logo p {
+  font-size: 12px;
 }
 
 @media (max-width: 1200px) {
@@ -781,7 +782,7 @@ section {
     display: none;
   }
 
-  .s4__title, .s7__title {
+  .s4__title, .s7__title, .footer__title {
    display: none;
  }
 
