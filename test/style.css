@@ -563,7 +563,6 @@ section {
 
 #s6 {
   background-image: url("img/bg/s2__bg.png");
-  position: absolute;
   width: 100vw;
 
 }
@@ -622,15 +621,50 @@ section {
   background-image: url("img/bg/s7__bg.png");
 }
 
-.foot-bar {
-  height: 50vh;
-  background-color: #2d313c;
-}
 
 #foot {
   background-image: url("img/bg/s3__bg.png");
+  width: 100vw;
 }
 
+.foot-bar {
+
+}
+
+.foot-bar h4 {
+  color: #1b2a51;
+  font-family: sans-serif;
+}
+
+.footer--mods {
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: 2vw;
+}
+
+.footer__title {
+  flex-basis: 5vw;
+  margin-right: 2vw;
+  margin-left: 6vw;
+}
+
+.f1, .f2, .f3,.f4 {
+  flex-direction: column;
+  margin: 1vw 5vw;
+
+}
+
+.f3 {
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.f3--mods {
+}
+
+.f1-1, .f1-2, .f2-1, .f2-2, .f3-1, .f3-2, .f3-3, .f3-4, .f3-5, .f3-6, .f3-7, .f4-1, .f4-2 {
+  margin: 1vw;
+}
 
 @media (max-width: 1200px) {
   #s1 {
