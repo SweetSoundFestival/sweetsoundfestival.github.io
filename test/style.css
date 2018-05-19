@@ -618,44 +618,53 @@ section {
   width: 100vw;
 }
 
-.foot-bar {
-
-}
-
-.foot-bar h4 {
+#foot h4 {
   color: #1b2a51;
   font-family: sans-serif;
 }
 
 .footer--mods {
   align-items: flex-start;
-  justify-content: flex-start;
-  margin-top: 2vw;
+  padding: 7% 0;
 }
 
 .footer__title {
-  flex-basis: 5vw;
-  margin-right: 2vw;
-  margin-left: 6vw;
+  width: 5vw;
+  margin-right: 1vw;
+}
+
+.footer__title--phone {
+  display: none;
+}
+
+.footer__content {
+  flex-basis: 80vw;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 
 .f1, .f2, .f3, .f4 {
-  flex-direction: column;
-  margin: 1vw 5vw;
+  flex-flow: column wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 0vw 3vw 3vw 3vw;
 }
 
 .f3 {
-  flex-basis: 20vw;
+  width: 25vw;
 }
 
 .f3--mods {
-  flex-flow: column wrap;
-  height: 20vw;
+  flex-direction: column;
+  height: 30vh;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 
-.f1-1, .f1-2, .f2-1, .f2-2, .f3-1, .f3-2, .f3-3, .f3-4, .f3-5, .f3-6, .f3-7, .f4-1, .f4-2 {
+.footer__content__logo {
   margin: 1vw;
 }
+
 
 .bot-logo {
   background: #f4f0e3;
@@ -690,11 +699,11 @@ section {
 
 @media (max-width: 789px) {
 
-  .s4__title, .s6__title {
+  .s4__title, .s6__title, .footer__title {
     display: none;
   }
 
-  .s4__title--phone, .s6__title--phone {
+  .s4__title--phone, .s6__title--phone, .footer__title--phone {
     display: block;
     flex-basis: 300px;
   }
@@ -723,6 +732,10 @@ section {
     padding: 2vw 4vw;
   }
 
+  .footer__content {
+    justify-content: center;
+    align-items: flex-start;
+  }
 
 }
 
@@ -778,17 +791,17 @@ section {
     opacity: 1;
   }
 
-  .s6__title {
-    display: none;
-  }
-
-  .s4__title, .s7__title, .footer__title {
-   display: none;
- }
-
 
   #s01__word, #s02__word, #s03__word, #s04__word, #s05__word, #s06__word, #s07__word, #s08__word, #s09__word, #s10__word, #s11__word, #s12__word, #s13__word, #s14__word, #s15__word, #s16__word  {
     display: block;
+  }
+
+  .f1, .f2 {
+    flex-basis: 30vw;
+  }
+
+  .f3 {
+    flex-basis: 60vw;
   }
 
 
