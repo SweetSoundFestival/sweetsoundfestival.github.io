@@ -1,69 +1,3 @@
-/*progressive image.js*/
-a.primary {
-  width: 100vw;
-  left: 50%;
-  margin-left: -50vw;
-}
-
-a.full {
-  clear: both;
-  width: 100%;
-  box-shadow: 0 3px 4px #000;
-}
-
-a.boxout1, a.boxout2 {
-  clear: both;
-  float: left;
-  width: 60%;
-  margin: 1em 1em 0 -4em;
-  box-shadow: 0 3px 4px #000;
-}
-
-a.boxout2 {
-  float: right;
-  margin: 1em -4em 0 1em;
-}
-
-/* progressive image CSS */
-a.progressive {
-  position: relative;
-  display: block;
-  overflow: hidden;
-  outline: none;
-}
-
-a.progressive:not(.replace) {
-  cursor: default;
-}
-
-a.progressive img {
-  display: block;
-  width: 100%;
-  max-width: none;
-  height: auto;
-  border: 0 none;
-}
-
-a.progressive img.preview {
-  filter: blur(2vw);
-  transform: scale(1.05);
-}
-
-a.progressive img.reveal {
-  position: absolute;
-  left: 0;
-  top: 0;
-  will-change: transform, opacity;
-  animation: reveal 1s ease-out;
-}
-
-@keyframes reveal {
-    0% { transform: scale(1.05); opacity: 0; }
-    100% { transform: scale(1); opacity: 1; }
-}
-
-/*end*/
-
 html,body {
 width: 100%;
 margin: 0px;
@@ -662,7 +596,7 @@ section {
 }
 
 .footer__content__logo {
-  margin: 1vw;
+  margin: 1vw 3vw 1vw 0vw;
 }
 
 
