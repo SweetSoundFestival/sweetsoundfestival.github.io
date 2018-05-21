@@ -1,9 +1,12 @@
+<<<<<<< HEAD
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   #safari {
     display: block;
   }
 }
 
+=======
+>>>>>>> f2c0658acdec77633f944c29bf8017b124e27bbd
 html,body {
 width: 100%;
 margin: 0px;
@@ -112,8 +115,14 @@ section {
 }
 
 
+<<<<<<< HEAD
 .navbar-toggle, .navbar-brand>img {
  /* (80px - button height 34px) / 2 = 23px */
+=======
+
+
+.navbar-toggle, .navbar-brand>img {
+>>>>>>> f2c0658acdec77633f944c29bf8017b124e27bbd
  margin-top: 23px;
  padding: 9px 10px !important;
 }
@@ -136,10 +145,13 @@ section {
   background: #f5ab00;
 }
 
+<<<<<<< HEAD
 .nav__brand {
 
 }
 
+=======
+>>>>>>> f2c0658acdec77633f944c29bf8017b124e27bbd
 .hvr-underline-from-center {
     display: inline-block;
     vertical-align: middle;
@@ -404,7 +416,11 @@ section {
 
 
 #s4 {
+<<<<<<< HEAD
   background-image: url("img/bg/s4__bg.png");
+=======
+  background: #136e9f;
+>>>>>>> f2c0658acdec77633f944c29bf8017b124e27bbd
   z-index: 5;
 }
 
@@ -502,8 +518,12 @@ section {
 }
 
 #s6 {
+<<<<<<< HEAD
   background-image: url("img/bg/s2__bg.png");
   position: absolute;
+=======
+  background: #1e9b8e;
+>>>>>>> f2c0658acdec77633f944c29bf8017b124e27bbd
   width: 100vw;
 
 }
@@ -549,6 +569,7 @@ section {
   margin-top: 1vh;
 }
 
+<<<<<<< HEAD
 
 #s6__t-1 {
   background-image: url("img/ticket/ticket__300.svg");
@@ -571,6 +592,75 @@ section {
   background-image: url("img/bg/s3__bg.png");
 }
 
+=======
+#s7 {
+  background-image: url("img/bg/s7__bg.png");
+}
+
+
+#foot {
+  background: #f4f0e3;
+  width: 100vw;
+}
+
+#foot h4 {
+  color: #1b2a51;
+  font-family: sans-serif;
+}
+
+.footer--mods {
+  align-items: flex-start;
+  padding: 7% 0;
+}
+
+.footer__title {
+  width: 5vw;
+  margin-right: 1vw;
+}
+
+.footer__title--phone {
+  display: none;
+}
+
+.footer__content {
+  flex-basis: 80vw;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.f1, .f2, .f3, .f4 {
+  flex-flow: column wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 0vw 3vw 3vw 3vw;
+}
+
+.f3 {
+  width: 25vw;
+}
+
+.f3--mods {
+  flex-direction: column;
+  height: 30vh;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.footer__content__logo {
+  margin: 1vw 3vw 1vw 0vw;
+}
+
+
+.bot-logo {
+  background: #f4f0e3;
+  color: #1e9b8e;
+  padding-bottom: 0.5vw;
+}
+
+.bot-logo p {
+  font-size: 12px;
+}
+>>>>>>> f2c0658acdec77633f944c29bf8017b124e27bbd
 
 @media (max-width: 1200px) {
   #s1 {
@@ -595,11 +685,31 @@ section {
 
 @media (max-width: 789px) {
 
+<<<<<<< HEAD
   .s4__title, .s6__title {
     display: none;
   }
 
   .s4__title--phone, .s6__title--phone {
+=======
+  .hvr-underline-from-center {
+    display: none;
+    -webkit-transform: none;
+    transform: none;
+    box-shadow: none;
+  }
+
+  .hvr-underline-from-center:before {
+    display: none;
+    transition-duration: none;
+  }
+
+  .s4__title, .s6__title, .footer__title {
+    display: none;
+  }
+
+  .s4__title--phone, .s6__title--phone, .footer__title--phone {
+>>>>>>> f2c0658acdec77633f944c29bf8017b124e27bbd
     display: block;
     flex-basis: 300px;
   }
@@ -616,14 +726,25 @@ section {
   }
 
   .s4__content__item__word {
+<<<<<<< HEAD
     top: 65%;
     left: 11%;
+=======
+    top: 60%;
+    left: 13%;
+>>>>>>> f2c0658acdec77633f944c29bf8017b124e27bbd
   }
 
   .s6__title--phone img {
     width: 35%;
   }
 
+<<<<<<< HEAD
+=======
+  .s4__content__item__pic {
+    padding: 2vw 4vw;
+  }
+>>>>>>> f2c0658acdec77633f944c29bf8017b124e27bbd
 
 }
 
@@ -679,6 +800,7 @@ section {
     opacity: 1;
   }
 
+<<<<<<< HEAD
   .s6__title {
     display: none;
   }
@@ -687,6 +809,8 @@ section {
    display: none;
  }
 
+=======
+>>>>>>> f2c0658acdec77633f944c29bf8017b124e27bbd
 
   #s01__word, #s02__word, #s03__word, #s04__word, #s05__word, #s06__word, #s07__word, #s08__word, #s09__word, #s10__word, #s11__word, #s12__word, #s13__word, #s14__word, #s15__word, #s16__word  {
     display: block;
@@ -695,6 +819,10 @@ section {
 
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> f2c0658acdec77633f944c29bf8017b124e27bbd
  }
 
  @media (max-width: 730px) {
@@ -704,6 +832,13 @@ section {
    .with-line {
     background: transparent;
   }
+<<<<<<< HEAD
+=======
+
+  .f3 {
+    width: 30vw;
+  }
+>>>>>>> f2c0658acdec77633f944c29bf8017b124e27bbd
  }
 
  @media (max-width: 529px) {
@@ -721,6 +856,13 @@ section {
     width: 80%;
   }
 
+<<<<<<< HEAD
+=======
+  .s4__content__item__pic {
+    width: 100%;
+  }
+
+>>>>>>> f2c0658acdec77633f944c29bf8017b124e27bbd
   .s6__title--phone img {
     margin-bottom: 5px;
   }
@@ -820,7 +962,10 @@ section {
     vertical-align: middle;
     text-align: center;
     justify-content: center;
+<<<<<<< HEAD
     padding-top: 2px;
+=======
+>>>>>>> f2c0658acdec77633f944c29bf8017b124e27bbd
   }
 
   .s1__button--fund {
