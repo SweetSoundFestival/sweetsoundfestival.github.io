@@ -454,13 +454,15 @@ section {
   width: 80%;
 }
 
-#s01__word, #s02__word, #s03__word, #s04__word, #s05__word, #s06__word, #s07__word, #s08__word, #s09__word, #s10__word, #s11__word, #s12__word, #s13__word, #s14__word, #s15__word, #s16__word  {
+#s01__word, #s02__word, #s03__word, #s04__word, #s05__word, #s06__word, #s07__word, #s08__word, #s09__word, #s10__word, #s11__word, #s12__word, #s13__word, #s14__word, #s15__word, #s16__word,
+#s17__word, #s18__word, #s19__word, #s20__word, #s21__word, #s22__word, #s23__word, #s24__word, #s25__word, #s26__word, #s27__word, #s28__word  {
   display: none;
 }
 
 #s01__pic:hover #s01__word, #s02__pic:hover #s02__word, #s03__pic:hover #s03__word, #s04__pic:hover #s04__word, #s05__pic:hover #s05__word, #s06__pic:hover #s06__word, #s07__pic:hover #s07__word,
 #s08__pic:hover #s08__word, #s09__pic:hover #s09__word, #s10__pic:hover #s10__word, #s11__pic:hover #s11__word, #s12__pic:hover #s12__word, #s13__pic:hover #s13__word, #s14__pic:hover #s14__word,
-#s15__pic:hover #s15__word, #s16__pic:hover #s16__word
+#s15__pic:hover #s15__word, #s16__pic:hover #s16__word, #s17__pic:hover #s17__word, #s18__pic:hover #s18__word, #s19__pic:hover #s19__word, #s20__pic:hover #s20__word, #s21__pic:hover #s21__word,
+#s22__pic:hover #s22__word, #s23__pic:hover #s23__word, #s24__pic:hover #s24__word, #s25__pic:hover #s25__word, #s26__pic:hover #s26__word, #s27__pic:hover #s27__word, #s28__pic:hover #s28__word
  {
   display: block;
 }
@@ -728,7 +730,8 @@ section {
   }
 
 
-  #s01__word, #s02__word, #s03__word, #s04__word, #s05__word, #s06__word, #s07__word, #s08__word, #s09__word, #s10__word, #s11__word, #s12__word, #s13__word, #s14__word, #s15__word, #s16__word  {
+  #s01__word, #s02__word, #s03__word, #s04__word, #s05__word, #s06__word, #s07__word, #s08__word, #s09__word, #s10__word, #s11__word, #s12__word, #s13__word, #s14__word, #s15__word, #s16__word,
+  #s17__word, #s18__word, #s19__word, #s20__word, #s21__word, #s22__word, #s23__word, #s24__word, #s25__word, #s26__word, #s27__word, #s28__word  {
     display: block;
   }
 

@@ -1,12 +1,3 @@
-<<<<<<< HEAD
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-  #safari {
-    display: block;
-  }
-}
-
-=======
->>>>>>> f2c0658acdec77633f944c29bf8017b124e27bbd
 html,body {
 width: 100%;
 margin: 0px;
@@ -115,14 +106,9 @@ section {
 }
 
 
-<<<<<<< HEAD
-.navbar-toggle, .navbar-brand>img {
- /* (80px - button height 34px) / 2 = 23px */
-=======
 
 
 .navbar-toggle, .navbar-brand>img {
->>>>>>> f2c0658acdec77633f944c29bf8017b124e27bbd
  margin-top: 23px;
  padding: 9px 10px !important;
 }
@@ -145,13 +131,6 @@ section {
   background: #f5ab00;
 }
 
-<<<<<<< HEAD
-.nav__brand {
-
-}
-
-=======
->>>>>>> f2c0658acdec77633f944c29bf8017b124e27bbd
 .hvr-underline-from-center {
     display: inline-block;
     vertical-align: middle;
@@ -224,7 +203,6 @@ section {
   justify-content: center;
   flex-basis: 35vw;
   margin-bottom: 4vh;
-
 }
 
 .s1__title {
@@ -273,7 +251,6 @@ section {
 .s1__button--fund {
   width: 20vh;
   margin-top: 3vh;
-
 }
 
 .s1__people {
@@ -416,11 +393,7 @@ section {
 
 
 #s4 {
-<<<<<<< HEAD
-  background-image: url("img/bg/s4__bg.png");
-=======
   background: #136e9f;
->>>>>>> f2c0658acdec77633f944c29bf8017b124e27bbd
   z-index: 5;
 }
 
@@ -481,13 +454,15 @@ section {
   width: 80%;
 }
 
-#s01__word, #s02__word, #s03__word, #s04__word, #s05__word, #s06__word, #s07__word, #s08__word, #s09__word, #s10__word, #s11__word, #s12__word, #s13__word, #s14__word, #s15__word, #s16__word  {
+#s01__word, #s02__word, #s03__word, #s04__word, #s05__word, #s06__word, #s07__word, #s08__word, #s09__word, #s10__word, #s11__word, #s12__word, #s13__word, #s14__word, #s15__word, #s16__word,
+#s17__word, #s18__word, #s19__word, #s20__word, #s21__word, #s22__word, #s23__word, #s24__word, #s25__word, #s26__word, #s27__word, #s28__word  {
   display: none;
 }
 
 #s01__pic:hover #s01__word, #s02__pic:hover #s02__word, #s03__pic:hover #s03__word, #s04__pic:hover #s04__word, #s05__pic:hover #s05__word, #s06__pic:hover #s06__word, #s07__pic:hover #s07__word,
 #s08__pic:hover #s08__word, #s09__pic:hover #s09__word, #s10__pic:hover #s10__word, #s11__pic:hover #s11__word, #s12__pic:hover #s12__word, #s13__pic:hover #s13__word, #s14__pic:hover #s14__word,
-#s15__pic:hover #s15__word, #s16__pic:hover #s16__word
+#s15__pic:hover #s15__word, #s16__pic:hover #s16__word, #s17__pic:hover #s17__word, #s18__pic:hover #s18__word, #s19__pic:hover #s19__word, #s20__pic:hover #s20__word, #s21__pic:hover #s21__word,
+#s22__pic:hover #s22__word, #s23__pic:hover #s23__word, #s24__pic:hover #s24__word, #s25__pic:hover #s25__word, #s26__pic:hover #s26__word, #s27__pic:hover #s27__word, #s28__pic:hover #s28__word
  {
   display: block;
 }
@@ -518,12 +493,7 @@ section {
 }
 
 #s6 {
-<<<<<<< HEAD
-  background-image: url("img/bg/s2__bg.png");
-  position: absolute;
-=======
   background: #1e9b8e;
->>>>>>> f2c0658acdec77633f944c29bf8017b124e27bbd
   width: 100vw;
 
 }
@@ -569,30 +539,6 @@ section {
   margin-top: 1vh;
 }
 
-<<<<<<< HEAD
-
-#s6__t-1 {
-  background-image: url("img/ticket/ticket__300.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 100px;
-}
-
-#s7 {
-  background-image: url("img/bg/s7__bg.png");
-}
-
-.foot-bar {
-  height: 50vh;
-  background-color: #2d313c;
-}
-
-#foot {
-  background-image: url("img/bg/s3__bg.png");
-}
-
-=======
 #s7 {
   background-image: url("img/bg/s7__bg.png");
 }
@@ -660,7 +606,6 @@ section {
 .bot-logo p {
   font-size: 12px;
 }
->>>>>>> f2c0658acdec77633f944c29bf8017b124e27bbd
 
 @media (max-width: 1200px) {
   #s1 {
@@ -685,13 +630,6 @@ section {
 
 @media (max-width: 789px) {
 
-<<<<<<< HEAD
-  .s4__title, .s6__title {
-    display: none;
-  }
-
-  .s4__title--phone, .s6__title--phone {
-=======
   .hvr-underline-from-center {
     display: none;
     -webkit-transform: none;
@@ -709,7 +647,6 @@ section {
   }
 
   .s4__title--phone, .s6__title--phone, .footer__title--phone {
->>>>>>> f2c0658acdec77633f944c29bf8017b124e27bbd
     display: block;
     flex-basis: 300px;
   }
@@ -726,25 +663,17 @@ section {
   }
 
   .s4__content__item__word {
-<<<<<<< HEAD
-    top: 65%;
-    left: 11%;
-=======
     top: 60%;
     left: 13%;
->>>>>>> f2c0658acdec77633f944c29bf8017b124e27bbd
   }
 
   .s6__title--phone img {
     width: 35%;
   }
 
-<<<<<<< HEAD
-=======
   .s4__content__item__pic {
     padding: 2vw 4vw;
   }
->>>>>>> f2c0658acdec77633f944c29bf8017b124e27bbd
 
 }
 
@@ -800,29 +729,16 @@ section {
     opacity: 1;
   }
 
-<<<<<<< HEAD
-  .s6__title {
-    display: none;
-  }
 
-  .s4__title, .s7__title {
-   display: none;
- }
-
-=======
->>>>>>> f2c0658acdec77633f944c29bf8017b124e27bbd
-
-  #s01__word, #s02__word, #s03__word, #s04__word, #s05__word, #s06__word, #s07__word, #s08__word, #s09__word, #s10__word, #s11__word, #s12__word, #s13__word, #s14__word, #s15__word, #s16__word  {
+  #s01__word, #s02__word, #s03__word, #s04__word, #s05__word, #s06__word, #s07__word, #s08__word, #s09__word, #s10__word, #s11__word, #s12__word, #s13__word, #s14__word, #s15__word, #s16__word,
+  #s17__word, #s18__word, #s19__word, #s20__word, #s21__word, #s22__word, #s23__word, #s24__word, #s25__word, #s26__word, #s27__word, #s28__word  {
     display: block;
   }
 
 
 
 
-<<<<<<< HEAD
-=======
 
->>>>>>> f2c0658acdec77633f944c29bf8017b124e27bbd
  }
 
  @media (max-width: 730px) {
@@ -832,13 +748,10 @@ section {
    .with-line {
     background: transparent;
   }
-<<<<<<< HEAD
-=======
 
   .f3 {
     width: 30vw;
   }
->>>>>>> f2c0658acdec77633f944c29bf8017b124e27bbd
  }
 
  @media (max-width: 529px) {
@@ -856,13 +769,10 @@ section {
     width: 80%;
   }
 
-<<<<<<< HEAD
-=======
   .s4__content__item__pic {
     width: 100%;
   }
 
->>>>>>> f2c0658acdec77633f944c29bf8017b124e27bbd
   .s6__title--phone img {
     margin-bottom: 5px;
   }
@@ -962,10 +872,6 @@ section {
     vertical-align: middle;
     text-align: center;
     justify-content: center;
-<<<<<<< HEAD
-    padding-top: 2px;
-=======
->>>>>>> f2c0658acdec77633f944c29bf8017b124e27bbd
   }
 
   .s1__button--fund {
@@ -974,9 +880,12 @@ section {
 
   .p__s1__people {
     overflow: hidden;
-    position: absolute;
-    z-index: 1;
-    margin-top: 54vh;
+    /*position: absolute;*/
+    /*z-index: 1;*/
+    /*margin-top: 54vh;*/
+    position: relative;
+    z-index: -1;
+    top: -50px;
   }
 }
 
