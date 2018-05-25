@@ -250,9 +250,9 @@ section {
   }
 
 .s1__button--fund {
+  z-index: 1000;
   width: 20vh;
   margin-top: 3vh;
-
 }
 
 .s1__people {
