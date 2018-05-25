@@ -198,12 +198,12 @@ section {
 }
 
 .s1__funcs {
+  z-index: 100;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   flex-basis: 35vw;
   margin-bottom: 4vh;
-
 }
 
 .s1__title {
@@ -250,7 +250,6 @@ section {
   }
 
 .s1__button--fund {
-  z-index: 1000;
   width: 20vh;
   margin-top: 3vh;
 }
