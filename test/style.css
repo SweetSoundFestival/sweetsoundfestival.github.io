@@ -183,7 +183,7 @@ section {
 
 
 #s1 {
-  background-image: url("img/bg/s1__bg2.png");
+  background-image: url("img/bg/s1/s1__bg2.png");
   background-position: top;
   background-size: cover;
   background-color: #f5ab00;
@@ -556,7 +556,7 @@ section {
 
 .footer--mods {
   align-items: flex-start;
-  padding: 7% 0;
+  padding: 3% 0;
 }
 
 .footer__title {
@@ -578,11 +578,11 @@ section {
   flex-flow: column wrap;
   align-items: flex-start;
   justify-content: flex-start;
-  margin: 0vw 3vw 3vw 3vw;
+  margin: 0vw 1vw 3vw 3vw;
 }
 
 .f3 {
-  width: 25vw;
+  flex-basis: 300px;
 }
 
 .f3--mods {
@@ -596,6 +596,15 @@ section {
   margin: 1vw 3vw 1vw 0vw;
 }
 
+.footer__line {
+  background: #289a8e;
+  width: 100vw;
+  padding-bottom: 3px;
+}
+
+.footer__line img {
+  width: 100%;
+}
 
 .bot-logo {
   background: #f4f0e3;
@@ -609,7 +618,7 @@ section {
 
 @media (max-width: 1200px) {
   #s1 {
-    background-image: url("img/bg/s1__bg1.png");
+    background-image: url("img/bg/s1/s1__bg1.png");
   }
 }
 
@@ -651,7 +660,7 @@ section {
     flex-basis: 300px;
   }
 
-  .s4__title--phone img {
+  .s4__title--phone img, .s6__title--phone img, .footer__title--phone img {
     width: 35%;
     margin-bottom: 5px;
   }
@@ -667,12 +676,14 @@ section {
     left: 13%;
   }
 
-  .s6__title--phone img {
-    width: 35%;
-  }
+
 
   .s4__content__item__pic {
     padding: 2vw 4vw;
+  }
+
+  .f3 {
+    flex-basis: 250px;
   }
 
 }
@@ -743,7 +754,7 @@ section {
 
  @media (max-width: 730px) {
    #s1 {
-     background-image: url("img/bg/s1__bg.png");
+     background-image: url("img/bg/s1/s1__bg.png");
    }
    .with-line {
     background: transparent;
@@ -752,6 +763,13 @@ section {
   .f3 {
     width: 30vw;
   }
+ }
+
+ @media (max-width: 661px) {
+   .footer__content {
+     flex-basis: 65vw;
+     justify-content: space-between;
+   }
  }
 
  @media (max-width: 529px) {
@@ -786,6 +804,11 @@ section {
     width: 60%;
     margin-bottom: 2vw;
   }
+
+  .footer__line {
+    margin-bottom: -3px;
+    padding-bottom: 0px;
+  }
  }
 
 @media (min-width: 446px) {
@@ -818,7 +841,7 @@ section {
   }
 
   #s1 {
-    background-image: url("img/phone/p__s1__bg.png");
+    background: #f5ab00;
     display: block;
   }
 

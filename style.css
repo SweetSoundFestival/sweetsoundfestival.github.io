@@ -183,7 +183,7 @@ section {
 
 
 #s1 {
-  background-image: url("img/bg/s1__bg2.png");
+  background-image: url("img/bg/s1/s1__bg2.png");
   background-position: top;
   background-size: cover;
   background-color: #f5ab00;
@@ -609,7 +609,7 @@ section {
 
 @media (max-width: 1200px) {
   #s1 {
-    background-image: url("img/bg/s1__bg1.png");
+    background-image: url("img/bg/s1/s1__bg1.png");
   }
 }
 
@@ -651,7 +651,7 @@ section {
     flex-basis: 300px;
   }
 
-  .s4__title--phone img {
+  .s4__title--phone img, .s6__title--phone img, .footer__title--phone img {
     width: 35%;
     margin-bottom: 5px;
   }
@@ -667,9 +667,7 @@ section {
     left: 13%;
   }
 
-  .s6__title--phone img {
-    width: 35%;
-  }
+
 
   .s4__content__item__pic {
     padding: 2vw 4vw;
@@ -743,7 +741,7 @@ section {
 
  @media (max-width: 730px) {
    #s1 {
-     background-image: url("img/bg/s1__bg.png");
+     background-image: url("img/bg/s1/s1__bg.png");
    }
    .with-line {
     background: transparent;
@@ -818,7 +816,7 @@ section {
   }
 
   #s1 {
-    background-image: url("img/phone/p__s1__bg.png");
+    background: #f5ab00;
     display: block;
   }
 
