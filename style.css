@@ -257,12 +257,14 @@ section {
   margin-top: -60vh;
 }
 
-#s2 {
-  background-image: url("img/bg/s2__bg.png");
+.s2--mods {
+  padding: 5%;
+  background: #f4f0e3;
 }
 
-.s2--mods {
-  padding: 10%;
+.s2__intro--phone {
+  display: none;
+  padding: 5%;
 }
 
 #s7 {
@@ -654,6 +656,14 @@ section {
   .s4__title--phone img, .s6__title--phone img, .footer__title--phone img {
     width: 35%;
     margin-bottom: 5px;
+  }
+
+  .s2__intro {
+    display: none;
+  }
+
+  .s2__intro--phone {
+    display: block;
   }
 
   .s4__content__item {
