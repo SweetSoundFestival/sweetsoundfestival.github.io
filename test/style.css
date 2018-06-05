@@ -375,9 +375,7 @@ section {
   display: none;
 }
 
-.s3__content--phone img {
-  width: 80%;
-}
+
 
 .s3__content--phone--item {
   margin: 5%;
@@ -661,6 +659,10 @@ section {
 
   .s2__intro--phone {
     display: block;
+  }
+
+  .s3__map {
+    display: none;
   }
 
   .s3__title, .s4__title, .s6__title, .footer__title {
