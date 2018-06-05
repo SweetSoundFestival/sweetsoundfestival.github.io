@@ -577,7 +577,7 @@ section {
 }
 
 .footer__content__logo {
-  margin: 1vw 2vw 1vw 1vw;
+  margin: 1vw 1vw 1vw 1vw;
 }
 
 .footer__content--mods {
@@ -908,9 +908,6 @@ section {
 
   .p__s1__people {
     overflow: hidden;
-    /*position: absolute;*/
-    /*z-index: 1;*/
-    /*margin-top: 54vh;*/
     position: relative;
     z-index: -1;
     top: -50px;
