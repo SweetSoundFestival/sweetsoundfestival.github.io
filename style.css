@@ -257,9 +257,13 @@ section {
   margin-top: -60vh;
 }
 
+#s2 {
+  background: #f4f0e3;
+}
+
 .s2--mods {
   padding: 5%;
-  background: #f4f0e3;
+
 }
 
 .s2__intro--phone {
@@ -349,7 +353,7 @@ section {
 
 
 #s3 {
-  background-image: url("img/bg/s3__bg.png");
+  background: #f5edd9;
 }
 
 .s3--mods {
@@ -367,31 +371,19 @@ section {
   flex-direction: column;
 }
 
-.s3__content__buttons {
-  flex-grow: 1;
-  width: 80vw;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-}
-  .s3__content__buttons--mods {
-    flex-basis: 15vw;
-  }
-
-
-.s3__content__content {
-  position: relative;
-  flex-grow: 1;
-  width: 80vw;
-  margin-top: 1vw;
-  justify-content: center;
-  align-items: center;
+.s3__content--phone {
+  display: none;
 }
 
-  .s3__content__content__map {
-    position: absolute;
-  }
 
+
+.s3__content--phone--item {
+  margin: 5%;
+}
+
+.s3__button--map {
+  margin-top: 3%;
+}
 
 
 #s4 {
@@ -472,26 +464,24 @@ section {
 
 
 #s5 {
-  background-color: #fbe6e6;
+  background: #f5edd9;
 }
 
 .s5--mods {
-  padding: 5% 10% 5% 10%;
+  padding: 7% 0%;
+  align-items: flex-start;
 }
 
-.s5__title {
-  background-color: #fbe6e6;
-  width: 100vw;
-  height: 10vh;
-  margin: 2.5px;
+.s5__content {
+  flex-basis: 80vw;
 }
 
-.s5__item1 {
-  flex-grow: 2;
-  flex-basis: 400px;
-  height: 90vh;
-  background-color: #f9d3d3;
-  margin: 2.5px;
+.s5__content img {
+  width: 85%;
+}
+
+.s5__content--phone {
+  display: none;
 }
 
 #s6 {
@@ -558,46 +548,53 @@ section {
 
 .footer--mods {
   align-items: flex-start;
-  padding: 7% 0;
+  padding: 3% 0;
 }
 
 .footer__title {
   width: 5vw;
-  margin-right: 1vw;
+  margin-right: 3vw;
 }
 
 .footer__title--phone {
   display: none;
 }
 
+.f1, .f2, .f3, .f4 {
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 0vw 1vw 3vw 2vw;
+  flex-flow: column wrap;
+}
+
+
 .footer__content {
+  margin-top: 1%;
   flex-basis: 80vw;
   align-items: flex-start;
   justify-content: flex-start;
-}
-
-.f1, .f2, .f3, .f4 {
   flex-flow: column wrap;
-  align-items: flex-start;
-  justify-content: flex-start;
-  margin: 0vw 3vw 3vw 3vw;
-}
-
-.f3 {
-  width: 25vw;
-}
-
-.f3--mods {
-  flex-direction: column;
-  height: 30vh;
-  align-items: flex-start;
-  justify-content: flex-start;
 }
 
 .footer__content__logo {
-  margin: 1vw 3vw 1vw 0vw;
+  margin: 1vw 1vw 1vw 1vw;
 }
 
+.footer__content--mods {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.footer__line {
+  background: #289a8e;
+  width: 100vw;
+  padding-bottom: 3px;
+}
+
+.footer__line img {
+  width: 100%;
+}
 
 .bot-logo {
   background: #f4f0e3;
@@ -608,6 +605,8 @@ section {
 .bot-logo p {
   font-size: 12px;
 }
+
+
 
 @media (max-width: 1200px) {
   #s1 {
@@ -644,7 +643,19 @@ section {
     transition-duration: none;
   }
 
-  .s4__title, .s6__title, .footer__title {
+  .s2__intro {
+    display: none;
+  }
+
+  .s2__intro--phone {
+    display: block;
+  }
+
+  .s3__map {
+    display: none;
+  }
+
+  .s3__title, .s4__title, .s6__title, .footer__title {
     display: none;
   }
 
@@ -658,11 +669,7 @@ section {
     margin-bottom: 5px;
   }
 
-  .s2__intro {
-    display: none;
-  }
-
-  .s2__intro--phone {
+  .s3__content--phone {
     display: block;
   }
 
@@ -677,11 +684,18 @@ section {
     left: 13%;
   }
 
-
-
   .s4__content__item__pic {
     padding: 2vw 4vw;
   }
+
+  .s5__content {
+    display: none;
+  }
+
+  .s5__content--phone {
+    display: block;
+  }
+
 
 }
 
@@ -743,7 +757,9 @@ section {
     display: block;
   }
 
-
+  .footer__content__logo {
+    margin: 1vw 2vw 5vw 1vw;
+  }
 
 
 
@@ -756,10 +772,9 @@ section {
    .with-line {
     background: transparent;
   }
+ }
 
-  .f3 {
-    width: 30vw;
-  }
+ @media (max-width: 661px) {
  }
 
  @media (max-width: 529px) {
@@ -793,6 +808,11 @@ section {
   .s6__content__item img {
     width: 60%;
     margin-bottom: 2vw;
+  }
+
+  .footer__line {
+    margin-bottom: -3px;
+    padding-bottom: 0px;
   }
  }
 
@@ -888,9 +908,6 @@ section {
 
   .p__s1__people {
     overflow: hidden;
-    /*position: absolute;*/
-    /*z-index: 1;*/
-    /*margin-top: 54vh;*/
     position: relative;
     z-index: -1;
     top: -50px;
